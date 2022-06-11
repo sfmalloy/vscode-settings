@@ -5,5 +5,7 @@
     "terminal.integrated.enablePersistentSessions": false,
     "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
-    "editor.bracketPairColorization.enabled": false
+    "editor.bracketPairColorization.enabled": false,
+    "editor.inlayHints.enabled": "off",
+    "editor.codeLens": false
 }
