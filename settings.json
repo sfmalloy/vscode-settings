@@ -1,6 +1,6 @@
 {
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
     "terminal.integrated.persistentSessionReviveProcess": "never",
     "terminal.integrated.enablePersistentSessions": false,
     "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
@@ -8,5 +8,87 @@
     "editor.bracketPairColorization.enabled": false,
     "editor.inlayHints.enabled": "off",
     "editor.codeLens": false,
-    "editor.minimap.enabled": false
+    "omnisharp.useModernNet": true,
+    "editor.minimap.enabled": false,
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true,
+        "**/.ammonite": true
+    },
+    "clangd.arguments": [
+        "-header-insertion=never"
+    ],
+    "typescript.preferences.quoteStyle": "single",
+    "files.associations": {
+        ".bash*": "shellscript"
+    },
+    "[svelte]": {
+        "editor.tabSize": 2
+    },
+    "[typescript]": {
+        "editor.tabSize": 2,
+        "typescript.preferences.quoteStyle": "single"
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2,
+        "typescript.preferences.quoteStyle": "single"
+    },
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "javascript.preferences.quoteStyle": "single"
+    },
+    "[javascriptreact]": {
+        "editor.tabSize": 2
+    },
+    "[css]": {
+        "editor.tabSize": 2
+    },
+    "[plaintext]": {
+        "editor.quickSuggestions": {
+            "other": "off",
+            "comments": "off",
+            "strings": "off"
+        },
+        "editor.fontLigatures": false
+    },
+    "[html]": {
+        "editor.tabSize": 2
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "discord.removeRemoteRepository": true,
+    "discord.detailsEditing": "Editing {file_name} {current_line}:{current_column}",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "svelte.enable-ts-plugin": true,
+    "cmake.configureOnOpen": true,
+    "todohighlight.keywords": [
+        {
+            "text": "TODO:",
+            "color": "#99e3f7",
+            "backgroundColor": "rgba(0,0,0,0)"
+        }
+    ],
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "*.mutable": {
+                "underline": false
+            }
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Community Material Theme Darker High Contrast]": {
+            "comments": "#777777",
+            "textMateRules": [
+                {
+                    "scope": "variable.parameter",
+                    "settings": {
+                        "foreground": "#FFFFFF",
+                        "fontStyle": "italic"
+                    }
+                }
+            ]
+        }
+    }
 }
